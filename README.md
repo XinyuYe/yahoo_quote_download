@@ -31,6 +31,4 @@ Date, Open, High, Low, Close, Adjusted Close, Volume
 4. The order of the rows for splits/dividends seems random and is not chronically ordered.
 5. There are a number of holes (dates with prices marked as NULL), even in some of the SP500 stocks.
 
-Some changes
-
 Note: This code is available through "Simplified BSD License".
