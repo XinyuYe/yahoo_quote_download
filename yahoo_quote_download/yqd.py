@@ -98,9 +98,9 @@ def load_yahoo_quote(ticker, begindate, enddate, info = 'quote'):
 		param['events'] = 'split'
 	param['crumb'] = _crumb
 	params = urllib.parse.urlencode(param)
-	# print(params)
+	print(params)
 	url = 'https://query1.finance.yahoo.com/v7/finance/download/{}?{}'.format(ticker, params)
-	#print(url)
+	print(url)
 	req = urllib.request.Request(url, headers=_headers)
 
 	# Perform the query
