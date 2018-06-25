@@ -10,6 +10,7 @@ from yahoo_quote_download import yqd
 
 def load_quote(ticker):
     print('===', ticker, '===')
+    # yqd.load_yahoo_quote(ticker, '20150102', '20160104')
     print(yqd.load_yahoo_quote(ticker, '20150102', '20160104'))
     # print(yqd.load_yahoo_quote(ticker, '20170515', '20170517', 'dividend'))
     # print(yqd.load_yahoo_quote(ticker, '20170515', '20170517', 'split'))
